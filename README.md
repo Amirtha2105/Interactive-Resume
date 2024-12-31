@@ -4,7 +4,7 @@ Here, I've created an interactive resume, to showcase my skills and experience t
 The execution of this project:
 
 1. index.html -> The main content of the resume. I've attached a left side navigation menu for smooth scrolling to different sections, so that, by simply clicking it, the user can be able to scroll to the particular section. There's a header section that displays my name and role, along with LinkedIn link and Phone Number. By clicking the icon, the page gets directed to my LinkedIn Page and by clicking the phone icon, my phone number gets displayed. Apart from this, there are totally 6 sections which are:
-2. 
+
     About Section -> that tells about myself, the areas here I'm interested to work with, my current qualification.
    
     Education Section -> My HSC score and the college name, where I'm pursuing my degree.
