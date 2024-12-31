@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left side navigation menu -->
+        <aside class="side-menu">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#workexperience">Work Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- Main content-->
+        <main>
+            <header id="home">
+                <h1 class="animate-header">Amirthaa Rajesh</h1>
+                <p>Web Developer | Learner | Data Analyst</p>
+                <div class="contact-icons">
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/amirthaa-rajesh-81a071279/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                            
+                    <!-- Phone Icon -->
+                    <i class="fas fa-phone fa-2x phone-icon"onclick="showPhonePopup()"></i> 
+                </div>
+
+                <!-- Phone number Popup -->
+                <div id="phone-popup" class="phonepopup">
+                    <p>📞 Call me at: <br><strong>+91 89396 12654</strong></p>
+                    <button onclick="closePhonePopup()">Close</button>
+                </div>
+                <div class="picture">
+                    <img src="image1.jpeg" alt="image1" />
+                </div>
+            </header>
+            
+            <!-- About section -->
+            <section id="about">
+                <h2>About</h2>
+                <p>I'm passionate Pre Final Year AI & ML student with a focus on working with <strong>Machine Learning algorithms</strong>, 
+                specialising in training models with diverse datasets to gain more valuable insights.
+                My interest also extends to <br><strong>Web Development</strong>, with a strong interest on developing dynamic web applications 
+                that produce smooth user experiences. </p>
+            </section>
+            
+             <!-- Education section -->
+            <section id="education">
+                <h2>Education</h2>
+                <p>Bacherlor's Degree in CSE,<strong> Specialization
+                    in AI & ML - 2022-2026<br>
+                    Jerusalem College of Engineering,
+                    Chennai.</strong> <br><br>
+                    Higher Secondary School Certificate - 2022<br>
+                    <strong>CBSE BOARD - 81 %
+                    Modern Senior Secondary School,
+                    Chennai.</strong>
+                </p>
+            </section>
+            
+             <!-- Work experience section -->
+            <section id="workexperience">
+                <h2>Work Experience</h2>
+                <p><strong>Robotics Intern<br>
+                    Yaskawa India Private Limited, Chennai, Tamil Nadu<br>
+                    Duration : June 2024 - July 2024</strong><br>
+                    <p><strong>PROJECT -  Developed a report on Power BI:</strong><br>
+                    Developed a Dashboard on Power BI which represents the Excel Data into
+                    interactive visuals, using the company's original dataset.</p></p>
+                    Embarked on a month-long learning journey about their
+                    industrial robots, known as <STRONG>Motoman Series</STRONG>, which are
+                    designed for various applications across different industries.<br><BR>
+                    <STRONG>Practically collaborated with the Yaskawa Motoman AR1440
+                    Robot</STRONG>, where it is designed for arc welding applications.
+                </p>
+            </section>
+
+             <!-- Skills section -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <strong>Programming Language - Python</strong><br>
+                    <strong>Front end web development tools - HTML, CSS and JS.</strong><br>
+                    <strong>Business Intelligence Tool - Power BI</strong><br>
+                    <strong>Data analysis and visualization tools - NumPy, Pandas, Matplotlib</strong><br>
+                    <strong>Machine Learning algorithms - LR, PolyReg, LogReg, Random Forest, SVM</strong><br><br> Along with
+                    Excellent communication and teamwork abilities
+                </ul>
+            </section>
+
+            <!-- Certifications section-->
+             <section id="certifications">
+                <h2>Certifications</h2>
+                <p>Earned certificates from <strong>Great Learning Platform</strong></p>
+                <ul><strong>
+                    Front End Development - HTML<br>
+                    Front End Development - CSS<br>
+                    Introduction to JavaScript<br>
+                    Machine Learning Algorithms<br>
+                    How to Build a Chatbot using Python<br>
+                </ul></strong>
+                <div class="gcert">
+                    <a href="https://olympus.mygreatlearning.com/certificates" target="_blank">View all Certificates</a>
+                </div>
+
+                <p>Earned certificates from <strong>InfySpringBoard Platform</strong></p>
+                <ul><strong>
+                    Fundamentals of AI & ML: Advanced Data Science Methods<br>
+                    IoT & UI/UX<br>
+                    MERN Stack & FSD<br>
+                </ul></strong>
+                <div class="icert">
+                    <a href="https://infyspringboard.onwingspan.com/web/en/app/toc/lex_auth_0135015609119129608089/overview" target="_blank">MERN Stack & FSD</a><br>
+                    <a href="https://infyspringboard.onwingspan.com/web/en/app/toc/lex_auth_013817356626583552271/overview" target="_blank">Fundmentals of AI & ML</a><br>
+                    <a href="https://infyspringboard.onwingspan.com/web/en/app/toc/lex_auth_0135015626856038408666/overview" target="_blank">IoT & UI/UX</a><br>
+                </div>
+             </section>
+            
+             <!-- Projects section -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project-card">
+                    <h3>Interactive Resume</h3>
+                    <p>A modern, responsive Resume!<br>Tools used: HTML, CSS and JS</p>
+                    <a href="link to interactive resume" target="_blank">View Project</a>
+                </div>
+        
+                <div class="project-card">
+                    <h3>Recipe Book</h3>
+                    <p>A fascinating Recipe Book website.<br>Tools used: HTML, CSS and JS</p>
+                    <a href="https://github.com/Amirtha2105/Recipe-Book" target="_blank">View Project</a>
+                </div>
+        
+                <div class="project-card">
+                    <h3>Sports Buddy</h3>
+                    <p>SportS BuddY Web Appliction, built using HTML, CSS and JacaScript along with Firebase integration.</p>
+                    <a href="https://github.com/Amirtha2105/SportS-BuddY" target="_blank">View Project</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Student-Teacher Appointment Booking</h3>
+                    <p>Online Appointment booking system, between teacher and student, using HTML, CSS and JS along with Firebase integration</p>
+                    <a href="https://github.com/Amirtha2105/Student-Teacher-Booking-Appointment" target="_blank">View Project</a>
+                </div>
+            </section>
+        </main>
+    </div>
+     <!-- About section -->
+    <footer>
+        <p>&copy; 2024 AmirthaaR. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
